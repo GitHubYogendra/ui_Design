@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AboutCollege">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="18dp"
+            app:srcCompat="@drawable/unnamed_2" />
+
+
+        <HorizontalScrollView
+            android:id="@+id/scrollable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView4"
+            android:orientation="horizontal"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="460dp"
+                    android:layout_height="303dp"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_marginTop="30dp"
+                    app:srcCompat="@drawable/mec_namakkal13_jpg" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="458dp"
+                    android:layout_height="303dp"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_marginTop="30dp"
+                    app:srcCompat="@drawable/mec_namakkal_jpg" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="466dp"
+                    android:layout_height="303dp"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_marginTop="30dp"
+                    app:srcCompat="@drawable/mec_namakkal4_jpg" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="520dp"
+                    android:layout_height="303dp"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_marginTop="30dp"
+                    app:srcCompat="@drawable/mahendra_engineering_college_vadugapalayam_thiruchengode_colleges_32nx0s7" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="559dp"
+                    android:layout_height="303dp"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_marginTop="30dp"
+                    app:srcCompat="@drawable/ihindustan_indias_local_shop_business_mahendra_engineering_college_16013881435f733e6f166fc" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scrollable"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="15dp"
+            android:text="About College"
+            android:textColor="#D11C1C"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="211dp"
+            android:layout_height="11dp"
+            android:layout_below="@+id/textView1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:background="?android:attr/listDivider"
+            android:textColor="#D11C1C" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:gravity="center"
+            android:text="Mahendra Engineering College was started in 1995 by Shri.M.G.Bharathkumar, a renowned educationist and a philanthropist with noble intent of educating the underprivileged in the Salem and Namakkal districts. The college is an Autonomous Institution and an ISO 9001:2008 certified institution. The College is offering 14 Undergraduate and 9 Postgraduate courses in Engineering. Here the students are offered unparalleled state of infrastructure, extremely committed and dedicated faculty that employs innovative learning techniques to create highly conductive environment. The technical knowledge gained by the students is compliment by imbibing interpersonal skills and spirit of entrepreneurship that makes them competitive enough to face the global challenges and emerge as achievers. The IE (I) chapter was inaugurated during the year 2008 and organized various Technical and Non-Technical Events."
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="15dp"
+            android:text="Location:"
+            android:textColor="#D11C1C"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="211dp"
+            android:layout_height="11dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:background="?android:attr/listDivider"
+            android:textColor="#D11C1C" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:gravity="center"
+            android:text="The College is situated in a sprawling campus of 130 acres in rural sylvan surroundings and is free from pollution. The College stands as colossus at Mahendhirapuri on Salem - Tiruchengode - Erode state highway, 27 Km from Salem and 33 Km from Erode and is well connected to all major cities, Industrial centres across the country through railway and road network. The area is characterized by educational promotion and economic transformation."
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="299dp"
+            android:text="Back" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
